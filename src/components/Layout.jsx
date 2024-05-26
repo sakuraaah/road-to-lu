@@ -50,10 +50,12 @@ const Layout = ({children}) => {
         contentFontSize: 48,
         titleFontSize: 16
       }
-    }
+    },
+    cssVar: true
   }
 
   const lightThemeConfig = {
+    ...defaultThemeConfig,
     algorithm: theme.defaultAlgorithm,
     token: {
       colorTextBase: '#343642'
@@ -67,9 +69,11 @@ const Layout = ({children}) => {
   }
 
   const darkThemeConfig = {
+    ...defaultThemeConfig,
     algorithm: theme.darkAlgorithm,
     token: {
-      colorPrimary: '#A020F0'
+      colorPrimary: '#A020F0',
+      colorLink: '#A020F0'
     },
     components: {
       ...defaultThemeConfig.components,
