@@ -8,8 +8,24 @@ const Image = (props) => {
     objectFit: props.style?.objectFit ?? 'cover'
   }
 
+  let classNames = [] 
+  
+  if (props.className) {
+    classNames.push(props.className)
+  }
+
+  if (props.addOverlay) {
+    classNames.push('dark-overlay')
+  }
+
+  if (props.overlayMode === 'darker') {
+    classNames.push('darker-overlay')
+  }
+
   return (
     <AntdImage
+      className={classNames.length ? classNames.join(' ') : ''}
+      src={props.src}
       alt={props.alt ?? props.title ?? 'Image'}
       title={props.title ?? props.alt ?? 'Image'}
       fallback={fallbackImage}
