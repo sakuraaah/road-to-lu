@@ -36,17 +36,28 @@
   position: relative;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 .absolute {
   position: absolute;
 }
 
-.container {
+.container,
+.text-container {
+  width: 100%;
   position: relative;
   margin-right: auto;
   margin-left: auto;
   padding-left: 16px;
   padding-right: 16px;
 }
+
+.text-container {
+  max-width: 600px;
+}
+
 @media (min-width: 768px) {
   .container {
     width: 750px;
@@ -138,6 +149,7 @@ div.ant-typography {
   right: 0;
   background-color: black;
   opacity: 0.5;
+  pointer-events: none;
 }
 
 .ant-image:has(.dark-overlay.darker-overlay)::after {
@@ -155,8 +167,8 @@ div.ant-typography {
   opacity: 1 !important;
 }
 
-.ant-carousel:has(.dark-overlay) .slick-arrow::after {
-  color: var(--ant-color-bg-container);
+.ant-carousel .slick-dots li button {
+  background: white !important;
 }
 
 @keyframes App-logo-spin {
