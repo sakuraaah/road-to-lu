@@ -34,15 +34,15 @@ const SliderBlock = ({
                     }
                   }}>
                     <Title 
-                      level={2}
-                      className='absolute'
+                      level={4}
+                      className='absolute uppercase'
                       style={{ 
                         zIndex: 1,
                         right: 45,
                         bottom: 15
                       }}
                     >
-                      {key+1}. {item?.title}
+                      {item?.img?.title ?? item?.img?.alt ?? `${key}. Attēls` }
                     </Title>
                   </ConfigProvider>
                   <Image 
@@ -64,6 +64,7 @@ const SliderBlock = ({
           >
             {items.map((item, key) => (
               <Space>
+                <Title level={4}>{key+1}. {item?.title}</Title>
                 <Paragraph key={key}>{item?.description}</Paragraph>
                 <a href={item?.url}>Uzzināt vairāk</a>
               </Space>
