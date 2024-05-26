@@ -6,6 +6,8 @@ import { ThemeContext } from '../contexts/ThemeContext';
 
 
 const NavBlock = ({
+  id = undefined,
+  title = 'Sadaļas',
   navItems
 }) => {
   const { Title, Paragraph } = Typography;
@@ -37,7 +39,7 @@ const NavBlock = ({
   )
 
   return (
-    <div id='nav-block' style={{ padding: 24, backgroundColor: containerBg }}>
+    <div id={id} style={{ padding: 24, backgroundColor: containerBg }}>
       <ConfigProvider theme={{
         token: {
           colorText: 'white',
@@ -45,7 +47,7 @@ const NavBlock = ({
           colorBorder: 'red'
         }
       }}>
-        <Title level={3}>Sadaļas</Title>
+        <Title level={3}>{title}</Title>
         <Row gutter={[gap, gap]} style={{ backgroundColor: borderbg }}>
           {navItems.map((item, key) => (
             <Col key={key} span={24} md={colSpan}>

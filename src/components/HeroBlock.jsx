@@ -2,6 +2,7 @@ import { Col, Row, Space, Typography } from 'antd'
 import Image from './Image'
 
 const HeroBlock = ({
+  id = undefined,
   text,
   img: imgProps
 }) => {
@@ -14,7 +15,7 @@ const HeroBlock = ({
   }
 
   return (
-    <div id='title-block'>
+    <div id={id}>
       <Row>
         <Col span={24} md={12} style={{ padding: 16, aspectRatio: '1/1' }}>
           <Space 

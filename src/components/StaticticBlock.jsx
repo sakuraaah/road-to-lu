@@ -6,6 +6,7 @@ import { ThemeContext } from '../contexts/ThemeContext';
 
 
 const StaticticBlock = ({
+  id = undefined,
   statistics
 }) => {
   const { darkMode } = useContext(ThemeContext);
@@ -16,7 +17,7 @@ const StaticticBlock = ({
   const containerBg = darkMode ? '#141414' : '#343642'
 
   return (
-    <div id='statistics' style={{ backgroundColor: containerBg }}>
+    <div id={id} style={{ backgroundColor: containerBg }}>
       <ConfigProvider theme={{
         token: {
           colorBgContainer: darkMode ? '#2E2E2E' : '#4A4D5F',

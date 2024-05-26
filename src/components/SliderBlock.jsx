@@ -5,6 +5,8 @@ import { ConfigProvider, Carousel, Col, Row, Space, Typography } from 'antd';
 import Image from './Image'
 
 const SliderBlock = ({
+  id = undefined,
+  title = 'Maršruts',
   items
 }) => {
   const { Title, Paragraph } = Typography;
@@ -14,8 +16,8 @@ const SliderBlock = ({
   const gap = 32
 
   return (
-    <div id='carousel-block' className='container' style={{ paddingTop: 16, paddingBottom: 48 }}>
-      <Title level={2}>Maršruts</Title>
+    <div id={id} className='container' style={{ paddingTop: 16, paddingBottom: 48 }}>
+      <Title level={3}>{title}</Title>
       <Row gutter={[gap, gap]}>
         <Col span={24} lg={16}>
           <div className="full-mob-width">
