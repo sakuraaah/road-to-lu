@@ -24,7 +24,7 @@ const Layout = ({children}) => {
     {
       key: 1,
       icon: <HomeOutlined />,
-      label: 'Home'
+      label: <a href='/'>Home</a>
     },
     {
       key: 2,
