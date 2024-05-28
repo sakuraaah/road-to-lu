@@ -1,5 +1,5 @@
 import MainPage from "./pages/MainPage";
-import StepPage from "./pages/StepPage";
+import StartStepPage from "./pages/StartStepPage";
 
 const AppRoutes = [
   {
@@ -8,7 +8,7 @@ const AppRoutes = [
   },
   {
     path: '*',
-    element: <StepPage />
+    element: <StartStepPage />
   }
 ];
 
