@@ -23,6 +23,8 @@ const SliderBlock = ({
           <div className="full-mob-width">
             <Carousel 
               arrows 
+              autoplay
+              autoplaySpeed={10000}
               infinite
               beforeChange={(c, n) => carouselRef.current.goTo(n)}
             >
@@ -63,9 +65,9 @@ const SliderBlock = ({
             effect={'fade'}
           >
             {items.map((item, key) => (
-              <Space>
+              <Space key={key}>
                 <Title level={4}>{key+1}. {item?.title}</Title>
-                <Paragraph key={key}>{item?.description}</Paragraph>
+                {Array.isArray(item?.description) ? item.description.map((p) => <Paragraph>{p}</Paragraph>) : <Paragraph>{item?.description}</Paragraph>}
                 <a href={item?.url}>Uzzināt vairāk</a>
               </Space>
             ))}
