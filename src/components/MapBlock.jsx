@@ -16,7 +16,7 @@ const MapBlock = ({
 
   const gap = 32
 
-  const containerBg = darkMode ? '#2E2E2E' : '#F4F4F6'
+  const containerBg = darkMode ? '#2E2E2E' : '#F5F5F5'
 
   return (
     <div id={id} style={{ backgroundColor: containerBg, paddingTop: 48, paddingBottom: 96 }}>
