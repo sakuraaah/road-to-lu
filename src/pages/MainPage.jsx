@@ -11,9 +11,17 @@ import MapBlock from '../components/MapBlock'
 import StaticticBlock from '../components/StaticticBlock'
 import TextBlock from '../components/TextBlock'
 
+import * as constants from '../constants/texts'
+
 import HeroBlockImage from '../assets/LU-2.jpg'
 
-import StartImage from '../assets/Start-1.jpg'
+import Step1Image from '../assets/Start-1.jpg'
+import Step2Image from '../assets/7-1.jpg'
+import Step3Image from '../assets/Center-1.jpg'
+import Step5Image from '../assets/Center-7.jpg'
+import Step6Image from '../assets/Home-1.jpg'
+
+import MapImage from '../assets/Map.png'
 
 const MainPage = () => {
   return (
@@ -21,7 +29,7 @@ const MainPage = () => {
       <HeroBlock
         text={{
           title: 'Mans ceļš uz Latvijas Universitāti',
-          description: 'TODO'
+          description: 'Mans maršruts no dzīvesvietas vai darbavietas (Rīgā vai ārpus Rīgas) līdz LU.'
         }}
         img={{
           src: HeroBlockImage,
@@ -52,41 +60,65 @@ const MainPage = () => {
         items={[
           {
             title: 'Izeju no mājas',
-            description: 'gfdgdfgdfgdgfdfggd1',
+            description: constants.STEP1_TEXT,
             img: {
-              src: StartImage,
+              src: Step1Image,
               alt: 'Pietura pie manas mājas'
             },
-            url: '/home'
-          },
-          {
-            title: '15. autobuss',
-            description: 'kfjknjfnsdfusgd',
-            img: {
-              src: 'asdasd',
-              alt: 'Latvijas Universitāte'
-            },
-            url: '/bus'
+            url: '/start'
           },
           {
             title: '7. tramvajs',
-            description: 'fsdfsdf',
+            description: constants.STEP2_TEXT,
             img: {
-              src: 'asdasd',
-              alt: 'Latvijas Universitāte'
+              src: Step2Image,
+              alt: '7. tramvaja pieturvieta'
             },
             url: '/tram'
+          },
+          {
+            title: 'Centrs',
+            description: constants.STEP3_TEXT,
+            img: {
+              src: Step3Image,
+              alt: 'Aspazijas bulvāris'
+            },
+            url: '/center'
+          },
+          {
+            title: 'LU',
+            description: constants.STEP4_TEXT,
+            img: {
+              src: HeroBlockImage,
+              alt: 'Latvijas Universitāte'
+            },
+            url: '/lu'
+          },
+          {
+            title: 'Atpakaļ uz tramvaju',
+            description: constants.STEP5_TEXT,
+            img: {
+              src: Step5Image,
+              alt: '7. tramvaja pieturvieta Aspazijas bulvārī'
+            },
+            url: '/return'
+          },
+          {
+            title: 'Mājās',
+            description: constants.STEP6_TEXT,
+            img: {
+              src: Step6Image,
+              alt: 'Iela pie manas mājās'
+            },
+            url: '/home'
           }
         ]}
       />
       <MapBlock 
         id='map'
-        text={[
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam malesuada bibendum arcu vitae elementum. Est velit egestas dui id ornare arcu.',
-          'Neque vitae tempus quam pellentesque nec nam. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus et. Tortor condimentum lacinia quis vel eros donec. Turpis massa tincidunt dui ut ornare lectus sit amet. Purus sit amet luctus venenatis lectus.'
-        ]}
+        text={constants.MAP_TEXT}
         img={{
-          src: 'asdasd',
+          src: MapImage,
           alt: 'Latvijas Universitāte'
         }}
       />
@@ -110,10 +142,7 @@ const MainPage = () => {
       <TextBlock 
         id='summary'
         title='Secinājumi'
-        text={[
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suscipit adipiscing bibendum est ultricies integer. Id faucibus nisl tincidunt eget nullam non nisi est. Velit scelerisque in dictum non consectetur. Cras ornare arcu dui vivamus. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. At ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget. Tellus integer feugiat scelerisque varius morbi enim nunc faucibus. Ipsum dolor sit amet consectetur adipiscing elit ut aliquam. Vitae semper quis lectus nulla at volutpat diam. Placerat duis ultricies lacus sed. Nec ullamcorper sit amet risus nullam. Ut aliquam purus sit amet luctus venenatis lectus magna.',
-          'Urna porttitor rhoncus dolor purus non. Sed vulputate odio ut enim blandit volutpat. Dapibus ultrices in iaculis nunc. Donec ultrices tincidunt arcu non sodales neque. Ut sem nulla pharetra diam. Quis lectus nulla at volutpat diam. In ante metus dictum at tempor. Sit amet nisl purus in. Justo donec enim diam vulputate ut pharetra sit amet. Cras fermentum odio eu feugiat pretium nibh. Scelerisque viverra mauris in aliquam sem. Nulla malesuada pellentesque elit eget. Nascetur ridiculus mus mauris vitae ultricies. Erat pellentesque adipiscing commodo elit at imperdiet dui accumsan. Ante in nibh mauris cursus mattis molestie.'
-        ]}
+        text={constants.SUMMARY_TEXT}
       />
     </div>
   );
