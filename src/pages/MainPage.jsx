@@ -29,7 +29,7 @@ const MainPage = () => {
       <HeroBlock
         text={{
           title: 'Mans ceļš uz Latvijas Universitāti',
-          description: 'Mans maršruts no dzīvesvietas vai darbavietas (Rīgā vai ārpus Rīgas) līdz LU.'
+          description: 'Mans maršruts no dzīvesvietas līdz LU'
         }}
         img={{
           src: HeroBlockImage,
@@ -119,7 +119,7 @@ const MainPage = () => {
         text={constants.MAP_TEXT}
         img={{
           src: MapImage,
-          alt: 'Latvijas Universitāte'
+          alt: 'Ceļš līdz Latvijas Universitātei uz kartes'
         }}
       />
       <StaticticBlock 
