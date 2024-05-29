@@ -51,7 +51,7 @@ export const MAP_TEXT = [
   Mana ceļojuma maršruts uz Latvijas Universitāti ir rūpīgi plānots, lai nodrošinātu efektīvu un ērtu pārvietošanos pa Rīgu. Sākot no mājas Pļavniekos, es izmantoju sabiedriskā transporta līdzekļus, sākot ar 49. autobusu, kas aizved mani līdz Dienvidu tiltam. No turienes es pārbraucu uz 7. tramvaju, kas mani ved garām Nacionālajai operai un Operas parkam, līdz es sasniedzu Latvijas Universitātes tuvumā esošo pieturu. Šis ceļojums ar sabiedriskā transporta līdzekļiem nodrošina ērtu un ātru pārvietošanos, piedāvājot skatus uz pilsētas panorāmu un apkārtējo vidi.
   `,
   `
-  Laiks, kas nepieciešams no mājas līdz LU, ir aptuveni 30-40 minūtes, atkarībā no satiksmes intensitātes un pārvietošanās līdzekļu grafika. Plānojot ceļojumu, es ņemu vērā transporta numurus, maršrutu laikus un iespējamās pārbraukšanas pieturvietas, lai nodrošinātu savlaicīgu ierašanos uz nodarbībām un tikšanām. Šāds rūpīgi izstrādāts maršruts palīdz saglabāt manu ikdienas ritmu un efektīvi pārvaldīt laiku.
+  Laiks, kas nepieciešams no mājas līdz LU, ir aptuveni 60 minūtes, atkarībā no satiksmes intensitātes un pārvietošanās līdzekļu grafika. Plānojot ceļojumu, es ņemu vērā transporta numurus, maršrutu laikus un iespējamās pārbraukšanas pieturvietas, lai nodrošinātu savlaicīgu ierašanos uz nodarbībām un tikšanām. Šāds rūpīgi izstrādāts maršruts palīdz saglabāt manu ikdienas ritmu un efektīvi pārvaldīt laiku.
   `
 ]
 
