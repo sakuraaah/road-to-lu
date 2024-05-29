@@ -26,11 +26,13 @@ const MapBlock = ({
             <Title level={3}>{title}</Title>
             {Array.isArray(text) ? text.map((p) => <Paragraph>{p}</Paragraph>) : <Paragraph>{text}</Paragraph>}
           </Col>
-          <Col span={24} md={16}>
-            <Image 
-              {...img}
-              style={{ aspectRatio: '4/3' }}
-            />
+          <Col span={24} lg={16}>
+            <div className='full-mob-width'>
+              <Image 
+                {...img}
+                style={{ aspectRatio: '4/3' }}
+              />
+            </div>
           </Col>
         </Row>
       </div>
