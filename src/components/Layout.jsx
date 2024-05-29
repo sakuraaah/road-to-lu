@@ -11,7 +11,7 @@ import {
   HomeOutlined,
   MoonOutlined,
   SunOutlined,
-  UserOutlined,
+  SyncOutlined,
 } from '@ant-design/icons';
 
 import { ThemeContext } from '../contexts/ThemeContext';
@@ -24,12 +24,32 @@ const Layout = ({children}) => {
     {
       key: 1,
       icon: <HomeOutlined />,
-      label: <a href='/'>Home</a>
+      label: <a href='/'>Mājaslapa</a>
     },
     {
       key: 2,
-      icon: <UserOutlined />,
-      label: 'TODO'
+      icon: <SyncOutlined />,
+      label: 'Soļi',
+      children: [
+        {
+          type: 'group',
+          label: 'Ceļš uz LU',
+          children: [
+            { key: 4, label: <a href='/start'>Sākums</a> },
+            { key: 5, label: <a href='/tram'>Tramvajs</a> },
+            { key: 6, label: <a href='/center'>Centrs</a> },
+            { key: 7, label: <a href='/lu'>LU</a> }
+          ],
+        },
+        {
+          type: 'group',
+          label: 'Ceļš atpakaļ',
+          children: [
+            { key: 8, label: <a href='/return'>Tramvajs</a> },
+            { key: 9, label: <a href='/home'>Mājās</a> }
+          ],
+        }
+      ],  
     },
     {
       key: 3,
