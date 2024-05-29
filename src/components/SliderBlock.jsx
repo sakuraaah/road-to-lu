@@ -58,7 +58,7 @@ const SliderBlock = ({
             </Carousel>
           </div>
         </Col>
-        <Col span={24} md={8}>
+        <Col span={24} lg={8}>
           <Carousel 
             ref={carouselRef} 
             dots={false} 

@@ -28,7 +28,7 @@ const StaticticBlock = ({
         <Row gutter={[gap, gap]} style={{ padding: gap, margin: 0 }}>
           {statistics.map((statistic, key) => (
             <Col key={key} span={24} md={colSpan}>
-              <Card bordered={false}>
+              <Card bordered={false} style={{ height: '100%' }}>
                 <Statistic
                   {...statistic}
                 />
