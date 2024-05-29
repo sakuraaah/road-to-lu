@@ -30,6 +30,7 @@
 
 #main-page {
   max-width: 2000px;
+  margin: 0 auto;
 }
 
 .relative {
@@ -50,8 +51,8 @@
   position: relative;
   margin-right: auto;
   margin-left: auto;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 .text-container {
@@ -109,7 +110,7 @@ h2.ant-typography {
 
 h3.ant-typography {
   font-weight: 600;
-  font-size: 36px;
+  font-size: 40px;
 }
 
 div.ant-typography {
