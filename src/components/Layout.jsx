@@ -92,8 +92,8 @@ const Layout = ({children}) => {
     ...defaultThemeConfig,
     algorithm: theme.darkAlgorithm,
     token: {
-      colorPrimary: '#A020F0',
-      colorLink: '#A020F0'
+      colorPrimary: '#ff4d4f',
+      colorLink: '#ff4d4f'
     },
     components: {
       ...defaultThemeConfig.components,
