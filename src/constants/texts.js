@@ -12,16 +12,16 @@ export const STEP1_TEXT = [
 
 export const STEP2_TEXT = [
   `
-  Otrais posms manā ceļojumā uz Latvijas Universitāti sākas pēc tam, kad es esmu izkāpis no 49. autobusa un nonācis pie Dienvidu tilta, kur es nonācu līdz tramvaja pieturvietai, kur gaidu 7. tramvaju, kurā pēc tām pārsēžos. Tramvajs mani ved pa vienu no galvenajām Rīgas ielām, kur var redzēt dažādas vēsturiskas ēkas. Katru dienu, braucot pa šo maršrutu, es redzu Rīgas arhitektūras dažādību. Šis posms ir ne tikai praktisks pārvietošanās veids, bet arī iespēja labāk iepazīt manas pilsētas arhitektūru.
+  Otrais posms manā ceļojumā uz Latvijas Universitāti sākas pēc tam, kad es esmu izkāpis no 49. autobusa un nonācis līdz tramvaja pieturvietai, kur es gaidu 7. tramvaju. Kad tramvajs atnāca, es apsēžos tajā un dodos tālāk. Tramvajs mani ved pa vienu no galvenajām Rīgas ielām, kur var redzēt dažādas vēsturiskas ēkas. Katru dienu, braucot pa šo maršrutu, es redzu Rīgas arhitektūras dažādību. Tramvajs ir ne tikai praktisks pārvietošanās veids, bet arī iespēja labāk iepazīt manas pilsētas arhitektūru.
   `,
   `
-  Brauciens ar tramvaju ir ērts un ātrs, un tas man ļauj pārdomāt dienas plānus, kamēr esmu ceļā. Šajā laikā es bieži klausos mūziku, lai atpūsties pirms mācību dienas sākumam. Pārvietoties ar tramvaju ir ļoti ērti, un manuprāt daudz ērtāk un ātrāk nekā pārvietoties ar trolejbusu vai autobusu. Tas ir, galvenokārt, jo tramvajs nepiedalās ceļu satiksmē (nestāv ceļa sastrēgumos), un ar to var viegli kompensēt to, ka viņa ātrums ir daudz mazāks nekā augšminēta autobusa vai trolejbusa.
+  Brauciens ar tramvaju ir ērts un ātrs, kā arī aizņem 15-20 minūtes, un šīs laiks ļauj man pārdomāt dienas plānus, kamēr esmu ceļā. Braucot tramvajā es klausos mūziku, lai atpūsties pirms mācību dienas sākumam. Pārvietoties ar tramvaju ir ļoti ērti, un manuprāt daudz ērtāk un ātrāk nekā pārvietoties ar trolejbusu vai autobusu. Tas ir, galvenokārt, jo tramvajs nepiedalās ceļu satiksmē (nestāv ceļa sastrēgumos), un ar to var viegli kompensēt to, ka viņa ātrums ir daudz mazāks nekā augšminēta autobusa vai trolejbusa.
   `
 ];
 
 export const STEP3_TEXT = [
   `
-  Kad tramvajs tuvojas Aspazijas bulvārim, es zinu, ka mans ceļojums jau tuvojas noslēgumam. Izkāpjot no tramvaja, var redzēt Nacionālo operu un parku, kas ir īpaši skaists pavasarī un vasarā, kad ziedo koki un puķes.
+  Kad tramvajs tuvojas Aspazijas bulvārim, es zinu, ka mans ceļojums jau tuvojas nobeigumam. Izkāpjot no tramvaja, var redzēt Nacionālo operu un parku, kas ir ļoti skaists pavasarī un vasarā, kad ziedo koki un puķes.
   `
 ];
 
@@ -30,10 +30,10 @@ export const STEP4_TEXT = [
   No Nacionālās operas man ir īss gājiens līdz Latvijas Universitātes galvenajai ēkai Raiņa bulvārī. Šis posms man patīk, jo var apskatīt parka skaistumu un sagatavoties mācību dienai.
   `,
   `
-  Tajā var pastaigāties pa zaļajām pļavām un koku alejām, baudot svaigo gaisu un vērojot Daugavas straumes. Pavasarī un vasarā parks tiek pārklāts ar krāsainām puķēm un krūmiem, radot patīkamu un krāšņu skatu. Operas parks ir iemīļota vieta pilsētniekiem un apmeklētājiem, kur viņi var atpūsties un justies vienā ar dabu pašā pilsētas sirdī, jo pastaiga caur parku ir ļoti nomierinoša. Vērojot cilvēkus, kas pastaigājas vai sporto, es sajūtu Rīgas dzīvīgumu un enerģiju. Tādējādi šis posms ceļā uz Latvijas Universitāti ne tikai sagatavo mani mācībām, bet arī sniedz ikdienas devu dabas un pilsētas dzīves harmonijas.
+  Tajā var pastaigāties pa zaļajām pļavām un koku alejām, baudot svaigo gaisu. Pavasarī un vasarā parks tiek pārklāts ar krāsainām puķēm un krūmiem, radot patīkamu un krāšņu skatu. Operas parks ir viena no iemīļotakiem vietam pilsētniekiem un apmeklētājiem, kur viņi var atpūsties un izbaudīt dabu pašā pilsētas sirdī. Es domaju, ka pastaiga caur parku ir ļoti nomierinoša un ir kā svaigas gaisas elpa tādā aktīvā pilsētā, ka Rīga. Vērojot cilvēkus, kas pastaigājas vai sporto, es sajūtu Rīgas dzīvīgumu un enerģiju. Tādējādi šis posms ceļā uz Latvijas Universitāti ne tikai sagatavo mani mācībām, bet arī sniedz ikdienas devu dabas un pilsētas dzīves harmonijas.
   `,
   `
-  Kad es atnācu pie Latvijas Universitātes galvenas ēkas, kas atrodas Raiņa bulvārī, es zinu, ka tulīt sāksies mana mācības diena. Ceļojums uz Latvijas Universitāti ir beigusies, un tālāk vajag koncentērties uz jaunu zināšanu iegūšanu.
+  Kad es atnācu pie Latvijas Universitātes galvenas ēkas, kas atrodas Raiņa bulvārī, es zinu, ka tulīt sāksies mana mācības diena. Ceļojums uz Latvijas Universitāti ir beigusies, un tālāk vajag koncentērties uz jaunu zināšanu iegūšanu un mācībām.
   `
 ];
 
@@ -42,10 +42,10 @@ export const STEP5_TEXT = [
   Pēc mācību dienas, izejot no LU ēkas, es dodos uz mājam. Maršruts no Latvijas Universitātes līdz manai mājai ir tāds pats, kā maršruts līdz LU, tikai pretējā virzienā, un tāpēc sākas ar 7. tramvaju.
   `,
   `
-  Ceļš atpakaļ dienas beigās ir kā mierīga otrā elpa pēc aizņemtas dienas. Pārvietojoties pa Rīgu, ar katru soli es pavēroju pilsētu mainoties no pulsojošas aktivitātes uz mierīgu noskaņu. Kad es atnācu uz 7. tramvaja pieturvietu pie Nacionālās operas, es atkal atveru acis uz brīnumaino arhitektūru un ainavu, bet šoreiz tas atgādina, ka ikdienas steigā ir jāatrod laiks arī sevis izbaudīšanai. 
+  Ceļš atpakaļ dienas beigās ir kā mierīga otrā elpa pēc aizņemtas dienas. Pārvietojoties pa Rīgu, ar katru soli es pavēroju pilsētu mainoties no pulsojošas aktivitātes uz mierīgu. Kad es atnācu uz 7. tramvaja pieturvietu pie Nacionālās operas, es atkal atveru acis uz brīnumaino arhitektūru un ainavu, bet šoreiz tas atgādina, ka tulīt diena jau pabeigsies, un drīz man būs laiks baudīt savu brīvo laiku vakarā. 
   `,
   `
-  Brauciens ar tramvaju, skats uz Daugavu un pilsētas siluets ir kā mākslas darbs, kas atgādina, cik burvīga un dinamiska var būt Rīga pat dienas noslēgumā. Ar katru pieturu tramvajs ved mani tuvāk mājām, un es jūtu, kā dienas nogurums pārvēršas mierā. Tādējādi ceļš mājup ir ne tikai pārvietošanās, bet arī laiks, lai pārdomātu dienu un sagatavotos rītdienai.
+  Brauciens ar tramvaju, skats uz Daugavu un pilsētas siluets ir kā mākslas darbs, kas atgādina, cik burvīga un dinamiska var būt Rīga pat dienas noslēgumā. Ar katru pieturu tramvajs ved mani tuvāk mājām, un es jūtu, kā dienas nogurums pārvēršas mierā. Tādējādi ceļš uz māju ir ne tikai pārvietošanās, bet arī laiks, lai pārdomātu dienu un sagatavotos rītdienai.
   `
 ]
 
@@ -57,7 +57,10 @@ export const STEP6_TEXT = [
   Kad es atbraucu ar autobusu līdz Pļavniekiem, man paliek tikai pedējais ceļojuma posms: tikt no pieturvietas līdz manai mājai.
   `,
   `
-  Ceļš uz māju ir kā brīdis pārdomām, atpūtai un sagatavošanai jaunajiem izaicinājumiem, kas gaida rītā. Tas aizņem apmēram 10 minūtes, tomēr saule jau aizgājusi un debesis ir apklājušās ar tumšiem mākoņiem, bet mana māja stāv spilgti gaismota, kā miera un siltuma avots šajā tumšajā naktī. Tajā ienākot, es sajūtu mājīgumu un komfortu, kas rada patīkamu kontrastu ar ārējo pasaules tumšumu.
+  Ceļš uz māju ir kā brīdis pārdomām, atpūtai un sagatavošanai jaunajiem izaicinājumiem, kas gaida rītā. Tas aizņem apmēram 10 minūtes, tomēr saule jau ir aizgājusi un debesī ir daudz tumšu mākoņu, bet mana māja stāv spilgti gaismota, kā miera un siltuma avots šajā tumšajā vakarā. Tajā ienākot, es sajūtu mājīgumu un komfortu, kas rada patīkamu kontrastu ar ārējo pasaules tumšumu.
+  `,
+  `
+  Tā arī ar dienas beigām beidzās mans ceļojums uz Latvijas Universitāti.
   `
 ]
 
