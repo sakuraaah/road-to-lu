@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/road-to-lu/static/css/main.34f3e39c.css",
-    "main.js": "/road-to-lu/static/js/main.978fe26e.js",
+    "main.js": "/road-to-lu/static/js/main.e119541d.js",
     "static/js/453.a6675297.chunk.js": "/road-to-lu/static/js/453.a6675297.chunk.js",
     "static/media/Center-7.jpg": "/road-to-lu/static/media/Center-7.68c1ec49e8eea56370c9.jpg",
     "static/media/Start-1.jpg": "/road-to-lu/static/media/Start-1.76b9803c62093f1dfa14.jpg",
@@ -13,11 +13,11 @@
     "static/media/img-placeholder.png": "/road-to-lu/static/media/img-placeholder.264a9e637713a953e4cc.png",
     "index.html": "/road-to-lu/index.html",
     "main.34f3e39c.css.map": "/road-to-lu/static/css/main.34f3e39c.css.map",
-    "main.978fe26e.js.map": "/road-to-lu/static/js/main.978fe26e.js.map",
+    "main.e119541d.js.map": "/road-to-lu/static/js/main.e119541d.js.map",
     "453.a6675297.chunk.js.map": "/road-to-lu/static/js/453.a6675297.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.34f3e39c.css",
-    "static/js/main.978fe26e.js"
+    "static/js/main.e119541d.js"
   ]
 }
