@@ -1,4 +1,5 @@
 import { useContext } from 'react'
+import { HashLink } from 'react-router-hash-link';
 
 import { ConfigProvider, Flex, Col, Row, Typography } from 'antd';
 
@@ -33,7 +34,7 @@ const NavBlock = ({
         }}
       >
         {item?.icon}
-        <Paragraph strong style={{ fontSize: 20 }}><a className='no-style underline' href={item?.url ?? '/'}>{item?.title}</a></Paragraph>
+        <Paragraph strong style={{ fontSize: 20 }}><HashLink to={item?.url ?? '/'} className='no-style underline'>{item?.title}</HashLink></Paragraph>
       </Flex>
     </div>
   )
