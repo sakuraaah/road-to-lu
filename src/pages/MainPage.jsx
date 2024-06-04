@@ -29,7 +29,10 @@ const MainPage = () => {
       <HeroBlock
         text={{
           title: 'Mans ceļš uz Latvijas Universitāti',
-          description: 'Mans maršruts no dzīvesvietas līdz LU'
+          description: [
+            'Mans maršruts no dzīvesvietas līdz LU',
+            'Autors: Ņikita Trofimovs'
+          ]
         }}
         img={{
           src: HeroBlockImage,

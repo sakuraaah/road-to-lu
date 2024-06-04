@@ -24,7 +24,7 @@ const HeroBlock = ({
             style={textBlockStyle}
           >
             <Title level={2}>{text?.title}</Title>
-            <Paragraph>{text?.description}</Paragraph>
+            {Array.isArray(text?.description) ? text.description.map((p) => <Paragraph>{p}</Paragraph>) : <Paragraph>{text?.description}</Paragraph>}
           </Space>
         </Col>
         <Col span={24} md={12} style={{ aspectRatio: '1/1' }}>
