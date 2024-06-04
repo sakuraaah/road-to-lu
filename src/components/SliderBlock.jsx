@@ -41,8 +41,9 @@ const SliderBlock = ({
                       className='absolute uppercase'
                       style={{ 
                         zIndex: 1,
-                        right: 45,
-                        bottom: 15
+                        right: 0,
+                        bottom: 15,
+                        margin: '15px 45px'
                       }}
                     >
                       {item?.img?.title ?? item?.img?.alt ?? `${key}. Attēls` }
