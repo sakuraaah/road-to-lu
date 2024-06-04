@@ -1,4 +1,5 @@
 import React, { useContext } from 'react';
+import { Link } from 'react-router-dom';
 
 import { 
   ConfigProvider, 
@@ -24,7 +25,7 @@ const Layout = ({children}) => {
     {
       key: 1,
       icon: <HomeOutlined />,
-      label: <a href='/'>Mājaslapa</a>
+      label: <Link to='/'>Mājaslapa</Link>
     },
     {
       key: 2,
@@ -35,18 +36,18 @@ const Layout = ({children}) => {
           type: 'group',
           label: 'Ceļš uz LU',
           children: [
-            { key: 4, label: <a href='/start'>Sākums</a> },
-            { key: 5, label: <a href='/tram'>Tramvajs</a> },
-            { key: 6, label: <a href='/center'>Centrs</a> },
-            { key: 7, label: <a href='/lu'>LU</a> }
+            { key: 4, label: <Link to='/start'>Sākums</Link> },
+            { key: 5, label: <Link to='/tram'>Tramvajs</Link> },
+            { key: 6, label: <Link to='/center'>Centrs</Link> },
+            { key: 7, label: <Link to='/lu'>LU</Link> }
           ],
         },
         {
           type: 'group',
           label: 'Ceļš atpakaļ',
           children: [
-            { key: 8, label: <a href='/return'>Tramvajs</a> },
-            { key: 9, label: <a href='/home'>Mājās</a> }
+            { key: 8, label: <Link to='/return'>Tramvajs</Link> },
+            { key: 9, label: <Link to='/home'>Mājās</Link> }
           ],
         }
       ],  

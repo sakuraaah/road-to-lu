@@ -1,3 +1,5 @@
+import { Navigate } from "react-router-dom";
+
 import MainPage from "./pages/MainPage";
 import StartStepPage from "./pages/StartStepPage";
 import TramStepPage from "./pages/TramStepPage";
@@ -34,6 +36,10 @@ const AppRoutes = [
   {
     path: '/home',
     element: <HomeStepPage />
+  },
+  {
+    path: '*',
+    element: <Navigate to="/" />
   }
 ];
 

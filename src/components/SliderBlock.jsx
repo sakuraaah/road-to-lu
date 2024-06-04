@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 import { ConfigProvider, Carousel, Col, Row, Space, Typography } from 'antd';
 
@@ -68,7 +69,7 @@ const SliderBlock = ({
               <Space key={key}>
                 <Title level={4}>{key+1}. {item?.title}</Title>
                 {Array.isArray(item?.description) ? item.description.map((p) => <Paragraph>{p}</Paragraph>) : <Paragraph>{item?.description}</Paragraph>}
-                <a href={item?.url}>Uzzināt vairāk</a>
+                <Link to={item?.url}>Uzzināt vairāk</Link>
               </Space>
             ))}
           </Carousel>
