@@ -24,7 +24,7 @@ const SliderBlock = ({
           <div className="full-mob-width">
             <Carousel 
               arrows 
-              autoplay
+              // autoplay
               autoplaySpeed={10000}
               infinite
               beforeChange={(c, n) => carouselRef.current.goTo(n)}
