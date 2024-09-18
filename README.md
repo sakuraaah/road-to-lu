@@ -1,6 +1,5 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Road to LU
+Project URL: https://sakuraaah.github.io/road-to-lu/#/
 
 ## Available Scripts
 
